@@ -1,0 +1,57 @@
+/*Contacts*/
+.main_content h1{
+	font-size: 2rem;
+}
+.wrap_content_contacts{
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0 60px;
+}
+.wrap_content_contacts > div{
+	width: 47%;
+}
+.form_contacts h3{
+	font-size: 1.5rem;
+	margin: 10px 0 30px;
+}
+.form_contacts p{
+	color: #ccc;
+}
+.field{
+	margin: 25px 0;
+}
+.field label{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 0.9rem;
+}
+.field input[type="text"], 
+.field input[type="email"], 
+.field textarea{
+	width: 100%;
+	background-color: #2d323f;
+	box-shadow: none;
+	border: 1px solid #514f4f;
+	outline: none;
+	color: #fff;
+	padding: 10px 10px;
+	border-radius: 6px;
+}
+.field textarea{
+	height: 150px;
+}
+.field input[type="text"]:focus, 
+.field input[type="email"]:focus, 
+.field textarea:focus{
+	border-color: #fff;
+}
+.field input[type="submit"]{
+	background-color: #fff;
+	color: #000;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 10px 15px;
+	border: 0px;
+	border-radius: 6px;
+}
+/*product*/
